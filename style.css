@@ -24,6 +24,18 @@ body {
     place-items: center;
     text-align: center;
     padding: 1.4rem;
+    background: url(images/bg-pattern-top-mobile.svg),  url(images/bg-pattern-bottom-mobile.svg) bottom right;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 600px) {
+    body {
+        background: url(images/bg-pattern-top-desktop.svg),  url(images/bg-pattern-bottom-desktop.svg) bottom right;
+        background-repeat: no-repeat;
+    }
+}
+
+main {
     margin: 4rem 0;
 }
 
