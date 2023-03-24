@@ -37,7 +37,7 @@ main {
         background: url(images/bg-pattern-top-desktop.svg),  url(images/bg-pattern-bottom-desktop.svg) bottom right;
         background-repeat: no-repeat;
         text-align: left;
-        padding: 7rem 11rem;
+        padding: 7rem 11.25rem;
     }
 
     .heading {
@@ -46,7 +46,6 @@ main {
     }
 
     main {
-        /* margin: 6rem 9rem; */
         margin: unset;
     }
 }
@@ -187,8 +186,9 @@ main {
 @media (min-width: 800px) {
     .reviews {
         display: flex;
+        gap: 2rem;
     }
-    
+
     .card {
         height: fit-content;
     }
