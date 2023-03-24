@@ -14,3 +14,35 @@
     --fw-medium: 500;
     --fw-bold: 700;
 }
+
+body {
+    min-height: 100vh;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-body);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 1.4rem;
+    margin: 4rem 0;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.product-info > h1 {
+    color: var(--very-dark-magenta);
+    font-size: 2.5rem;
+    font-weight: var(--fw-bold);
+    line-height: 2rem;
+}
+
+.desc {
+    color: var(--dark-grayish-magenta);
+    font-size: 1.1rem;
+    font-weight: var(--fw-medium);
+    line-height: 1.5rem;
+}
